@@ -19,7 +19,7 @@ int main()
     struct epoll_event *events;
     struct epoll_event event;
     int ret;
-//  int listenfd;
+    int listenfd;
 
     int nr_events, i, epfd;
     events = (epoll_event *)malloc(sizeof(epoll_event) * MAX_EVEN_SIZE);
